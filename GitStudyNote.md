@@ -14,3 +14,9 @@
 
 #### 	2.修改文件后，先用 'git add' 命令将文件存入暂存区中；此时再使用'git status' 命令可查看**仓库**当前状态，会显示可被提交的修改——"Changes to be commited."
 
+## 3. 将本地项目上传到GitHub
+
+#### 1.创建GitHub仓库。选择"Add a README File"会默认添加一个叫"main"的分支。可在设置中默认生成的分支命名为"master"，这样便与本地版本库相同。
+
+
+
