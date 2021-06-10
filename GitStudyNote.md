@@ -8,6 +8,8 @@
 
 #### 第二步： 使用 'git commit' 命令将暂存区的文件夹存入版本库中
 
+
+
 ## 2. 版本回退
 
 #### 	1.修改文件后，即使不关闭文件，使用 'git status' 命令，也能发现文件被修改——"Changes not staged for commit."
@@ -16,11 +18,27 @@
 
 ## 3. 将本地项目上传到GitHub
 
-#### 1.创建GitHub仓库。选择"Add a README File"会默认添加一个叫"main"的分支。可在设置中默认生成的分支命名为"master"，这样便与本地版本库相同。
+#### 1.创建GitHub仓库。选择"Add a README File"会自动生成一个叫"main"的分支。可设置默认生成的分支命名为"master"，这样便与本地版本库相同。
 
 #### 2.远程库输入错误时，可用'git remote -v'查看添加的远程库，再用'git remote remove origin'删除。
 
 
 
 ## 4.GitBash上传本地项目到GitHub
+
+#### 1.关联远程库：
+
+#### git remote add origin git@github.com:xxxxx/xxxxx.git
+
+#### 2.提交所有内容至远程库：
+
+#### git push -u origin master
+
+#### -u 参数会把本地分支master和远程分支关联起来
+
+
+
+
+
+
 
