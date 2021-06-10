@@ -38,5 +38,9 @@
 
 #### 3.创建并切换分支
 
+####  创建分支：git branch xxx 
+
+#### 切换分支：git switch xxx
+
 
 
