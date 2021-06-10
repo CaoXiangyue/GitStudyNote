@@ -46,6 +46,28 @@
 
 #### 在GitHub上，可以合并现有分支。
 
+#### commit新分支时，如果不使用-m参数输入提交信息，会出现：
+
+> E325: ATTENTION
+>
+> Found a swap file by the name "..."
+
+#### 输入Q退出后，会提示：
+
+> Waiting for your editor to close the file... erro: There was a problem with the editor 'vi'.
+>
+> Please supply the message using either -m or -F opition 
+
+#### 出现原因及解决方案可参考：
+
+https://stackoverflow.com/questions/13361729/found-a-swap-file-by-the-name
+
+https://blog.csdn.net/qq_32452623/article/details/78395832?utm_medium=distribute.pc_relevant.none-task-blog-2%7Edefault%7EBlogCommendFromMachineLearnPai2%7Edefault-2.control&depth_1-utm_source=distribute.pc_relevant.none-task-blog-2%7Edefault%7EBlogCommendFromMachineLearnPai2%7Edefault-2.control
+
+
+
+
+
 
 
 
