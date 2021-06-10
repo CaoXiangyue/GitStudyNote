@@ -64,7 +64,11 @@ https://stackoverflow.com/questions/13361729/found-a-swap-file-by-the-name
 
 https://blog.csdn.net/qq_32452623/article/details/78395832?utm_medium=distribute.pc_relevant.none-task-blog-2%7Edefault%7EBlogCommendFromMachineLearnPai2%7Edefault-2.control&depth_1-utm_source=distribute.pc_relevant.none-task-blog-2%7Edefault%7EBlogCommendFromMachineLearnPai2%7Edefault-2.control
 
+#### 4.当远程库存在本地库没有的文件时：
 
+> error: failed to push some refs to 'github.com:xxxx/xxxx.git'
+>
+> 提示：由于远程库存在本地所没有的文件，更新被拒绝。这通常是因为其他库正向该远程库推送。在再次推送之前，你可能想要先合并（'git pull ...'）远程的改变
 
 
 
