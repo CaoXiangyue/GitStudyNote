@@ -42,5 +42,11 @@
 
 #### 切换分支：git switch xxx
 
+#### 提交后，再使用 git push origin xxx ,就会把xxx分支提交到远程库中
+
+#### 在GitHub上，可以合并现有分支。
+
+
+
 
 
