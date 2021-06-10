@@ -70,6 +70,12 @@ https://blog.csdn.net/qq_32452623/article/details/78395832?utm_medium=distribute
 >
 > 提示：由于远程库存在本地所没有的文件，更新被拒绝。这通常是因为其他库正向该远程库推送。在再次推送之前，你可能想要先合并（'git pull ...'）远程的改变
 
+#### 先使用"git fetch origin xxx"获取远程分支
+
+#### 此时会得到一个"FETCH_HEAD"，包含某个分支在远程库上的最新状态。
+
+#### 再使用"git merge FETCH_HEAD"，将拉取下来的最新内容合并到当前分支中
+
 
 
 
